@@ -10,8 +10,6 @@ Return signFunc(product).
 */
 package main
 
-import "fmt"
-
 func arraySign(nums []int) int {
 	res := 1
 	for _, v := range nums {
@@ -23,9 +21,4 @@ func arraySign(nums []int) int {
 		}
 	}
 	return res
-}
-
-func main() {
-	nums := []int{-1, 0, 1}
-	fmt.Println(arraySign(nums))
 }

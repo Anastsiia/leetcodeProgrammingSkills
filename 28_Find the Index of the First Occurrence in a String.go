@@ -1,10 +1,6 @@
 /* Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.*/
 package main
 
-import (
-	"fmt"
-)
-
 /* we can use slices to make in more elegant:
 func strStr(haystack string, needle string) int {
 	if needle == "" {
@@ -45,10 +41,4 @@ func strStr(haystack string, needle string) int {
 		}
 	}
 	return -1
-}
-
-func main() {
-	word1 := "a"
-	word2 := "a"
-	fmt.Println(strStr(word1, word2))
 }

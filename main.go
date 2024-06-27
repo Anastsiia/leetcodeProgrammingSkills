@@ -32,8 +32,8 @@ func main() {
 	// fmt.Println(repeatedSubstringPattern(word3))
 
 	//1502:
-	nums := []int{7, 5, 1}
-	fmt.Println(canMakeArithmeticProgression(nums))
+	// nums := []int{7, 5, 1}
+	// fmt.Println(canMakeArithmeticProgression(nums))
 
 	//1768:
 	// word1 := "a b c"
@@ -43,4 +43,8 @@ func main() {
 	//1822:
 	// nums := []int{-1, 0, 1}
 	// fmt.Println(arraySign(nums))
+
+	//896:
+	nums := []int{-1, 0, 0}
+	fmt.Println(isMonotonic(nums))
 }

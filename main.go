@@ -32,8 +32,8 @@ func main() {
 	// fmt.Println(repeatedSubstringPattern(word3))
 
 	//1502:
-	// nums := []int{3, 5, 1}
-	// fmt.Println(canMakeArithmeticProgression(nums))
+	nums := []int{7, 5, 1}
+	fmt.Println(canMakeArithmeticProgression(nums))
 
 	//1768:
 	// word1 := "a b c"

@@ -5,13 +5,15 @@ Given an array of numbers arr, return true if the array can be rearranged to for
 */
 package main
 
+import "golang.org/x/exp/slices"
+
 func canMakeArithmeticProgression(arr []int) bool {
-	//sortArr := slices.Sort(arr)
-	// diff := sortArr[1] - sortArr[0]
-	// for i := 2; i < len(sortArr); i++ {
-	// 	if sortArr[i]-sortArr[i-1] != diff {
-	// 		return false
-	// 	}
-	// }
+	slices.Sort(arr)
+	diff := arr[1] - arr[0]
+	for i := 2; i < len(arr); i++ {
+		if arr[i]-arr[i-1] != diff {
+			return false
+		}
+	}
 	return true
 }

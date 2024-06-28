@@ -53,6 +53,10 @@ func main() {
 	// fmt.Println(romanToInt(str))
 
 	//58
-	str := "   fly me   to   the moon  "
-	fmt.Println(lengthOfLastWord(str))
+	// str := "   fly me   to   the moon  "
+	// fmt.Println(lengthOfLastWord(str))
+
+	//709:
+	str := "III"
+	fmt.Println(toLowerCase(str))
 }

@@ -45,6 +45,10 @@ func main() {
 	// fmt.Println(arraySign(nums))
 
 	//896:
-	nums := []int{-1, 0, 0}
-	fmt.Println(isMonotonic(nums))
+	// nums := []int{-1, 0, 0}
+	// fmt.Println(isMonotonic(nums))
+
+	//13
+	str := "III"
+	fmt.Println(romanToInt(str))
 }

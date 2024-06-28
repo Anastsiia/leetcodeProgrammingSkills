@@ -49,6 +49,10 @@ func main() {
 	// fmt.Println(isMonotonic(nums))
 
 	//13
-	str := "III"
-	fmt.Println(romanToInt(str))
+	// str := "III"
+	// fmt.Println(romanToInt(str))
+
+	//58
+	str := "   fly me   to   the moon  "
+	fmt.Println(lengthOfLastWord(str))
 }

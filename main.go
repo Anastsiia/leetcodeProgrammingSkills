@@ -65,6 +65,10 @@ func main() {
 	// fmt.Println(calPoints(ops))
 
 	//657:
-	moves := "LL"
-	fmt.Println(judgeCircle(moves))
+	// moves := "LL"
+	// fmt.Println(judgeCircle(moves))
+
+	//1275:
+	moves := [][]int{{0, 0}, {2, 0}, {1, 1}, {2, 1}, {2, 2}}
+	fmt.Println(tictactoe(moves))
 }

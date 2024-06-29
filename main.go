@@ -69,6 +69,11 @@ func main() {
 	// fmt.Println(judgeCircle(moves))
 
 	//1275:
-	moves := [][]int{{0, 0}, {2, 0}, {1, 1}, {2, 1}, {2, 2}}
-	fmt.Println(tictactoe(moves))
+	// moves := [][]int{{0, 0}, {2, 0}, {1, 1}, {2, 1}, {2, 2}}
+	// fmt.Println(tictactoe(moves))
+
+	//1041:
+	instructions := "GL"
+	fmt.Println(isRobotBounded(instructions))
+
 }

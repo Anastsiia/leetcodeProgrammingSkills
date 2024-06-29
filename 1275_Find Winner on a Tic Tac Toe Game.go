@@ -81,11 +81,7 @@ func (g *game) checkWinner() int {
 func tictactoe(moves [][]int) string {
 	currGame := NewGame()
 	for i, v := range moves {
-		if i%2 == 0 {
-			currGame.move(v[0], v[1], 1)
-		} else {
-			currGame.move(v[0], v[1], 2)
-		}
+		currGame.move(v[0], v[1], i&1+1)
 	}
 	winner := currGame.checkWinner()
 	if winner == 0 {

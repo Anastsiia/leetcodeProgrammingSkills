@@ -73,7 +73,13 @@ func main() {
 	// fmt.Println(tictactoe(moves))
 
 	//1041:
-	instructions := "GL"
-	fmt.Println(isRobotBounded(instructions))
+	// instructions := "GL"
+	// fmt.Println(isRobotBounded(instructions))
+
+	//1672:
+	// accounts := [][]int{{1, 12, 3}, {3, 2, 1}}
+	// fmt.Println(maximumWealth(accounts))
+
+	//1572
 
 }

@@ -60,7 +60,11 @@ func main() {
 	// str := "III"
 	// fmt.Println(toLowerCase(str))
 
-	//682
-	ops := []string{"1", "C"}
-	fmt.Println(calPoints(ops))
+	//682:
+	// ops := []string{"1", "C"}
+	// fmt.Println(calPoints(ops))
+
+	//657:
+	moves := "LL"
+	fmt.Println(judgeCircle(moves))
 }

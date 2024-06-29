@@ -84,16 +84,17 @@ func tictactoe(moves [][]int) string {
 		currGame.move(v[0], v[1], i&1+1)
 	}
 	winner := currGame.checkWinner()
-	if winner == 0 {
+	switch winner {
+	case 1:
+		return "A"
+	case 2:
+
+		return "B"
+	default:
 		if currGame.emptyFields != 0 {
 			return "Pending"
 		} else {
 			return "Draw"
 		}
-	} else if winner == 1 {
-		return "A"
-	} else {
-		return "B"
 	}
-
 }

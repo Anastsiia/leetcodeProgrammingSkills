@@ -57,6 +57,10 @@ func main() {
 	// fmt.Println(lengthOfLastWord(str))
 
 	//709:
-	str := "III"
-	fmt.Println(toLowerCase(str))
+	// str := "III"
+	// fmt.Println(toLowerCase(str))
+
+	//682
+	ops := []string{"1", "C"}
+	fmt.Println(calPoints(ops))
 }

@@ -3,7 +3,8 @@ Given two non-negative integers low and high. Return the count of odd numbers be
 */
 package main
 
-func countOdds(low int, high int) int {
+//O(n)-O(1) solution
+/*func countOdds(low int, high int) int {
 	res := 0
 	for i := low; i <= high; i++ {
 		//if i%2 != 0 {
@@ -12,4 +13,9 @@ func countOdds(low int, high int) int {
 		}
 	}
 	return res
+}*/
+
+// O(1) - O(1) bitwise solution
+func countOdds(low int, high int) int {
+	return ((high - low) / 2) + (low%2 | high%2)
 }

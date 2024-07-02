@@ -95,6 +95,6 @@ func main() {
 
 	//1523
 	low := 3
-	high := 7
+	high := 9
 	fmt.Println(countOdds(low, high))
 }

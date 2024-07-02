@@ -89,8 +89,12 @@ func main() {
 	// fmt.Println(spiralOrder(mat))
 
 	//73:
-	mat := [][]int{{1, 1, 1}, {1, 0, 1}, {1, 1, 1}}
-	setZeroes(mat)
-	fmt.Println(mat)
+	// mat := [][]int{{1, 1, 1}, {1, 0, 1}, {1, 1, 1}}
+	// setZeroes(mat)
+	// fmt.Println(mat)
 
+	//1523
+	low := 3
+	high := 7
+	fmt.Println(countOdds(low, high))
 }

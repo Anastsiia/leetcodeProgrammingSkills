@@ -101,6 +101,10 @@ func main() {
 	// fmt.Println(countOdds(low, high))
 
 	//1491:
-	nums := []int{7, 5, 1}
-	fmt.Println(average(nums))
+	// nums := []int{7, 5, 1}
+	// fmt.Println(average(nums))
+
+	//860:
+	nums := []int{5, 5, 5, 5, 10, 5, 10, 10, 10, 20}
+	fmt.Println(lemonadeChange(nums))
 }

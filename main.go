@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	// // 28:
@@ -93,8 +95,12 @@ func main() {
 	// setZeroes(mat)
 	// fmt.Println(mat)
 
-	//1523
-	low := 3
-	high := 9
-	fmt.Println(countOdds(low, high))
+	//1523:
+	// low := 3
+	// high := 9
+	// fmt.Println(countOdds(low, high))
+
+	//1491:
+	nums := []int{7, 5, 1}
+	fmt.Println(average(nums))
 }

@@ -81,6 +81,16 @@ func main() {
 	// fmt.Println(maximumWealth(accounts))
 
 	//1572
-	mat := [][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}
-	fmt.Println(diagonalSum(mat))
+	// mat := [][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}
+	// fmt.Println(diagonalSum(mat))
+
+	//54:
+	// mat := [][]int{{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}}
+	// fmt.Println(spiralOrder(mat))
+
+	//73:
+	mat := [][]int{{1, 1, 1}, {1, 0, 1}, {1, 1, 1}}
+	setZeroes(mat)
+	fmt.Println(mat)
+
 }

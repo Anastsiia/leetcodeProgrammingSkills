@@ -109,6 +109,10 @@ func main() {
 	// fmt.Println(lemonadeChange(nums))
 
 	//976:
-	nums := []int{1, 2, 1, 10}
-	fmt.Println(largestPerimeter(nums))
+	// nums := []int{1, 2, 1, 10}
+	// fmt.Println(largestPerimeter(nums))
+
+	//1232:
+	mat := [][]int{{1, 2}, {2, 3}, {3, 5}}
+	fmt.Println(checkStraightLine(mat))
 }

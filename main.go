@@ -105,6 +105,10 @@ func main() {
 	// fmt.Println(average(nums))
 
 	//860:
-	nums := []int{5, 5, 5, 5, 10, 5, 10, 10, 10, 20}
-	fmt.Println(lemonadeChange(nums))
+	// nums := []int{5, 5, 5, 5, 10, 5, 10, 10, 10, 20}
+	// fmt.Println(lemonadeChange(nums))
+
+	//976:
+	nums := []int{1, 2, 1, 10}
+	fmt.Println(largestPerimeter(nums))
 }

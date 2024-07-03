@@ -10,12 +10,10 @@ import (
 func largestPerimeter(nums []int) int {
 	len := len(nums)
 	sort.Ints(nums)
-	j := 0
-	for i := len - 1; i >= 2 && j < 45; i-- {
+	for i := len - 1; i >= 2; i-- {
 		if nums[i] < nums[i-1]+nums[i-2] {
 			return nums[i] + nums[i-1] + nums[i-2]
 		}
-		j++
 	}
 	return 0
 }

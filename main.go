@@ -1,8 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
 	// // 28:
@@ -113,6 +111,11 @@ func main() {
 	// fmt.Println(largestPerimeter(nums))
 
 	//1232:
-	mat := [][]int{{1, 2}, {2, 3}, {3, 5}}
-	fmt.Println(checkStraightLine(mat))
+	// mat := [][]int{{1, 2}, {2, 3}, {3, 5}}
+	// fmt.Println(checkStraightLine(mat))
+
+	//67:
+	word1 := "11"
+	word2 := "1"
+	fmt.Println(addBinary(word1, word2))
 }

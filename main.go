@@ -115,7 +115,17 @@ func main() {
 	// fmt.Println(checkStraightLine(mat))
 
 	//67:
-	word1 := "11"
-	word2 := "1"
-	fmt.Println(addBinary(word1, word2))
+	// word1 := "11"
+	// word2 := "1"
+	// fmt.Println(addBinary(word1, word2))
+
+	//43:
+	// word1 := "9"
+	// word2 := "9"
+	// fmt.Println(multiply(word1, word2))
+
+	//50:
+	x := 2.0
+	n := 4
+	fmt.Println(myPow(x, n))
 }

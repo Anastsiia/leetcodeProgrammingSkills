@@ -12,7 +12,29 @@ package main
  *     Next *ListNode
  * }
  */
+//more elegant implementation
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
+	if l1 == nil || l2 == nil {
+		return nil
+	}
+	reminder, res := 0, new(ListNode)
+
+	for list := res; l1 != nil || l2 != nil || reminder != 0; list = list.Next {
+		if l1 != nil {
+			reminder += l1.Val
+			l1 = l1.Next
+		}
+		if l2 != nil {
+			reminder += l2.Val
+			l2 = l2.Next
+		}
+		list.Next = &ListNode{reminder % 10, nil}
+		reminder /= 10
+	}
+	return res.Next
+}
+
+/*func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	if l1 == nil || l2 == nil {
 		return nil
 	}
@@ -57,3 +79,4 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	}
 	return res
 }
+*/

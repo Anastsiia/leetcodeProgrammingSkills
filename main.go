@@ -172,6 +172,29 @@ func main() {
 
 	//2:
 	// node3 := ListNode{3, nil}
+	// node2 := ListNode{4, nil}
+	// node1 := ListNode{2, &node2}
+	// node6 := ListNode{4, nil}
+	// node5 := ListNode{6, &node6}
+	// node4 := ListNode{5, &node5}
+	// list1 := &node1
+	// list2 := &node4
+	// // for list1 != nil {
+	// // 	fmt.Println(list1.Val)
+	// // 	list1 = list1.Next
+	// // }
+	// // for list2 != nil {
+	// // 	fmt.Println(list2.Val)
+	// // 	list2 = list2.Next
+	// // }
+	// res := addTwoNumbers(list1, list2)
+	// for res != nil {
+	// 	fmt.Println(res.Val)
+	// 	res = res.Next
+	// }
+
+	//445:
+	// node3 := ListNode{3, nil}
 	node2 := ListNode{4, nil}
 	node1 := ListNode{2, &node2}
 	node6 := ListNode{4, nil}
@@ -187,7 +210,7 @@ func main() {
 	// 	fmt.Println(list2.Val)
 	// 	list2 = list2.Next
 	// }
-	res := addTwoNumbers(list1, list2)
+	res := addTwoNumbers2(list1, list2)
 	for res != nil {
 		fmt.Println(res.Val)
 		res = res.Next
